@@ -1,0 +1,205 @@
+.body{
+    background-color: rgb(40,0,40);
+}
+
+
+/* Barra de navegacion */
+
+.barra-navegacion{
+    position: fixed;
+    padding-top: 50px;
+    background-color: rgb(40,0,40);
+    z-index: 9000;
+}
+
+.navbar-logo{
+    width: 50px;
+    color: rgb(0, 200, 200);
+}
+
+
+.navbar {
+    padding: 2rem;
+    --bs-navbar-toggler-padding-y: 2rem !important;
+    --bs-nav-link-hover-color:rgb(100, 0, 0) !important;
+    --bs-navbar-hover-color: rgb(0,100,100) !important;
+    --bs-navbar-toggler-border-color: rgb(40,0,40) !important;
+    --bs-navbar-toggler-icon-bg:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 199, 200, 0.95%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.nav-item a{
+    color: rgb(0, 200, 200) ;
+}
+
+
+.navbar a:hover{
+    color: rgb(0, 100, 100);
+}
+
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Seccion Hero */
+
+.hero-img{
+    width: 250px;
+    border-radius:15% ;
+    margin: 20px;
+    color: rgb(150, 150, 150);
+}
+
+.hero{
+    min-height: 450px;
+    text-align: center;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1{
+    font-size: 2.5rem;
+    color: rgb(0, 200, 200);
+    font-family: sans-serif;
+
+}
+
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: rgb(0, 200, 200);
+    margin-bottom: 100px;
+}
+.hero-inferior-img{
+    margin: -100px;
+}
+/* About me*/
+
+.About{
+    background-color: rgb(200, 200, 200);
+    height: 500px;
+    padding: 10px;
+}
+
+.About .container{
+    max-width: 600px;
+    text-align: center;
+
+}
+
+.text{
+    color:rgb(40,0,40);
+    font-size: 1.2rem;
+}
+
+.title-about{
+    font-size: 2rem;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+
+/* projects*/
+
+
+.title-projects{
+
+    color: aqua;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+
+.projects-text{
+
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    color: rgb(200, 200, 200);
+}
+
+.carousel-title{
+    background-color: black;
+    margin-inline: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.carousel-p{
+
+    display: inline-block;
+    width: 45px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+.carousel-inner{
+
+ width: 350px !important;
+ height: 350px !important;
+}
+
+/* contact*/
+
+.contact{
+    background-color: rgb(200, 200, 200);
+    margin-top: 20px;
+}
+
+.title-contact{
+
+    color: rgb(40,0,40);
+    font-size: 2rem;
+    padding: 15px;
+    margin-top: 35px;
+}
+
+.description{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+
+.contact-icon:hover{
+    color: rgb(100,100,100);
+}
+.contact-icon{
+    width: 2rem;
+    height: 2rem;
+    margin:30px;
+    margin-bottom: 50px;
+    color: rgb(40,0,40);
+
+
+}
+
+/* Responsive */
+
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display:none
+    }
+}
+
+@media screen and (min-width: 700px){
+    .hero-inferior-img{
+        max-width: 600px;
+    }
+}
